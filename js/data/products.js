@@ -4,6 +4,7 @@ export const products = [
         name: 'Gaming Surface',
         price: 6.96,
         image: './img/img1.png',
+        type: 'ss',
         description: [
             {
                 text: 'Seamless, Anti-fray stitched edges.',
@@ -28,6 +29,7 @@ export const products = [
         name: 'Pet Carrier',
         price: 29.99,
         image: './img/img2.png',
+        type: 'trial',
         description: [
             {
                 text: 'Perfect for traveling in style and comfort by plane or car, for an adventure or just a trip to the vet.',
@@ -52,6 +54,7 @@ export const products = [
         name: 'Teeth Model',
         price: 64.90,
         image: './img/img3.png',
+        type: 'ss',
         description: [
             {
                 text: 'Standard Dental implant tooth model.',
@@ -76,6 +79,7 @@ export const products = [
         name: 'Tap Timer',
         price: 98.90,
         image: './img/img4.png',
+        type: 'ss',
         description: [
             {
                 text: 'Provides highly efficient automatic watering for small areas from a hose tap.',
@@ -100,6 +104,7 @@ export const products = [
         name: 'Foldable Creeper',
         price: 119.98,
         image: './img/img5.png',
+        type: 'ss',
         description: [
             {
                 text: 'Transforms with no tools in seconds.',
@@ -124,6 +129,7 @@ export const products = [
         name: 'Gaming Chair',
         price: 148.00,
         image: './img/img6.png',
+        type: 'ss',
         description: [
             {
                 title: 'Adjustable Backrest',

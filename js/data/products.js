@@ -30,6 +30,7 @@ export const products = [
         price: 29.99,
         image: './img/img2.png',
         type: 'trial',
+        full_price: 198.98,
         description: [
             {
                 text: 'Perfect for traveling in style and comfort by plane or car, for an adventure or just a trip to the vet.',

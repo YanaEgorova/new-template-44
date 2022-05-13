@@ -57,7 +57,16 @@
   padding-top: 2rem;
   margin-bottom: 4rem;
 }
-@media screen and (min-width: 768px) {
+.list-col .item:not(:last-child) {
+  margin-bottom: 1rem;
+}
+.footer__block .list .item:not(:last-child) {
+  margin-bottom: 1rem;
+}
+@media screen and (min-width: 1440px) {
+  .footer {
+    padding-bottom: 1.5rem;
+  }
   .footer__policies {
     display: flex;
     justify-content: space-between;
@@ -75,7 +84,7 @@
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
   }
   .footer .text--mb, .footer__logo {
     margin-bottom: 0;
